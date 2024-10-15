@@ -1,0 +1,166 @@
+/* General styles */
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #EDF2C5;
+    color: #778A50;
+    margin: auto;
+    max-width: 1120px;
+}
+
+.heading{
+    display: flex;
+}
+.heading h1{
+    color: #778A50;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 59.93px;
+    text-align: left;
+    position: absolute; /* 或者可以用 relative, fixed, sticky 根據需要 */
+    top: 36px;
+    left: 200px;
+}
+
+.auth {
+    display: flex;
+    width: 208px;
+    align-items: center;
+}
+
+nav ul {
+    width: 1080px;
+    height: 45px;
+    position: absolute; /* 確保 nav 可以使用 top 和 left 進行定位 */
+    top: 120px;
+    left: 200px;
+    color: #EDF2C5;
+    background: #778A50; /* 替換為您希望的底色 */
+    border-radius: 3px; /* 調整邊角圓弧 */
+    justify-content: space-between;
+}
+
+.nav ul h2 {
+    margin-top: 0;
+    color: #EDF2C5;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 55px;
+    color: #EDF2C5;
+    padding: 3;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 45px;
+    opacity: 1;
+}
+
+.auth a {
+    margin-right: 10px;
+    color: #778A50;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.07px;
+    text-align: left;
+    position: fixed; /* 或者可以用 relative, fixed, sticky 根據需要 */
+    top: 36px;
+    right: 200px;
+}
+
+/* Hero image (Pumpkin) */
+.hero img {
+    width: 1120px;
+    height: 448px;
+    position: relative;
+    top: 190px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Vegetables gallery */
+.vegetables {
+    font-size: 16px;
+    font-weight: 600;
+    width: 528px;
+    height: 26px;
+    padding: 10px;
+    border-radius: 3px;
+    color: #EDF2C5;
+    background: #778A50;
+    
+    position: relative; /* 使子元素可以相對於此元素定位 */
+    top: 220px; /* 設定距離上方的距離 */
+}
+
+.vegetables h2{
+    margin-top: 0;
+}
+.vegetable-gallery img {
+    width: 160px;
+    height: auto;
+    margin: 5px;    
+}
+
+/* Contact section */
+.contact-header, .veg-header{
+    
+}
+
+.contact {
+    color: #EDF2C5;
+    background: #778A50;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 175px;
+    text-align: left;
+    margin-left: 50px;
+
+    width: 528px;
+    height: 26px;
+    position: absolute;
+    left: 592px;
+    padding: 10px;
+    border-radius: 3%;
+    margin-left: 185px;
+}
+
+.contact h2{
+    margin-top: 0;
+}
+
+.ppp{
+    color: #7D7D7D;
+    margin-top: 10px;
+    background-color: #F7FBDA;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.divider{
+    border-bottom: 1px solid black;
+    padding: 3px;
+}
+
+.contact a {
+    color: #7D7D7D;
+    margin-top: 200px;
+    padding: 5px;
+    margin-top =0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    
+    font-size: 12px;
+    background: #778A50;
+    color: #EDF2C5;
+    margin-top: 40px;
+    position: relative;
+    margin-left: -500%;
+    margin-right: -500%;
+    padding-left: 500%;
+    padding-right: 500%;
+    top: 420px;
+    border-radius: 3px;
+}
